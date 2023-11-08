@@ -1,0 +1,115 @@
+@media screen and (max-width: 500px) {
+    .goodWrap{
+    height: fit-content;
+    }
+  }
+
+.text{
+    font-size: 45px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 55px;
+    text-transform: capitalize;
+color: var(--accent);  
+width: 70%;
+}
+
+@media screen and (max-width: 500px) {
+    .text{
+      font-size: 30px;
+      width: 100%;
+      line-height: 35px;
+    }
+  }
+
+.span{
+    font-size: 45px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 50px;
+    text-transform: capitalize;
+color: var(--cyan);  
+}
+
+@media screen and (max-width: 500px) {
+    .span{
+      font-size: 30px;
+    }
+  }
+
+
+.Holder{
+justify-content: space-between;
+width:90%;
+align-items: flex-start;
+}
+
+@media screen and (max-width: 500px) {
+    .Holder{
+   /* background-color: maroon; */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-top: -25px;
+ 
+    }
+  }
+
+
+
+.Hold{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    transition: all 350ms ease-in-out;
+    &:hover{
+        transform: scale(1.04);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .Hold{
+   margin-top: 70px;
+    }
+  }
+
+.images{
+    height:40%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgs{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+.textHold{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+
+.mainText{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+
+.sub{
+    font-size: 16px;
+    color: grey;
+    /* height:300px; */
+    line-height: 23px;
+}
