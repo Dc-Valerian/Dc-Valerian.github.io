@@ -12,6 +12,7 @@ const Stars: React.FC = () => {
       ref.current.rotation.x -= delta / 10;
       ref.current.rotation.y -= delta / 15;
     }
+    
   });
 
   return (
@@ -19,8 +20,8 @@ const Stars: React.FC = () => {
       <Points ref={ref} positions={sphere} stride={3} frustumCulled>
         <PointMaterial
           transparent
-          color='#f272c8'
-          size={0.002}
+          color="#242424"
+          size={0.003}
           sizeAttenuation={true}
           depthWrite={false}
         />
@@ -31,7 +32,7 @@ const Stars: React.FC = () => {
 
 const StarsCanvas: React.FC = () => {
   return (
-    <div className='w-full h-auto absolute inset-0 z-[-1]'>
+    <div className="w-full h-auto absolute inset-0 z-[-1]">
       <Canvas camera={{ position: [0, 0, 1] }}>
         <Stars />
       </Canvas>

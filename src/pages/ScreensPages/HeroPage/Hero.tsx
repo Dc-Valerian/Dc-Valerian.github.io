@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
           </div>
 
           <div className="textHoold">
-            <h1 className="title dark:text-[#12C5E4]">
+            <h1 className="title dark:text-[#fff]">
               Hi, I'm <br /> Valerian Pedro Adimike
             </h1>
             <p className="subText dark:text-[#12C5E4]">

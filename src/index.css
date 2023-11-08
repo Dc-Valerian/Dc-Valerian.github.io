@@ -16,13 +16,13 @@ body {
   --orange: #fd7702;
   --yellow: #ffbb00;
 
-  --background: #E4E0DF;
+  --background: #fff;
   --accent: #242424; 
   --cyan:#12C5E4;
 
   margin: 0;
   padding: 0;
-  background-color: var(--background);
+  background-color: bg-primary;
   color: var(--accent);
   padding-bottom: 10px;
 }
